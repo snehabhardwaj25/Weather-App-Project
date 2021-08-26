@@ -1,11 +1,11 @@
-. {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUpMqQWqKIzdWFwrZTrRXObPoJ419OccS0w&usqp=CAU");
+  background-image: url("https://image.shutterstock.com/image-photo/weather-forecast-background-climate-change-260nw-1124541077.jpg");
   height: 100vh;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
   padding: 20px;
   text-align: center;
 }
-.app-main > . {
+.app-main > * {
   margin-bottom: 20px;
 }
 
@@ -43,6 +43,7 @@ body {
 }
 
 .weatherBody {
+  display: none;
   color: #582233;
   padding: 20px;
   line-height: 2rem;
